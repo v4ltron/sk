@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/****----Sirine----****/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/****----Generalno----****/
+
+.centar{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/*-------Pozadina-------*/
+
+body{
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #B3271C;
+}
+
+/*-------Header-------*/
+
+.header img{
+    width: 100px;
+}
+
+.header{
+    
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: rgb(32, 32, 32);
+    padding: 0;
+    border: 0px solid #b3271c;
+    border-radius: 5px;
+    width: 100vw;
+}
+
+/*-----Linkovi------*/
+
+ul{
+    font-family: 'Staatliches', cursive;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    border: 0px solid #911108;
+    background-color: rgb(138, 97, 91);
+    border-radius: 15px;
+    width: 200px;
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #B3271C;
+    font-size: 30px;
+}
+
+ul li:hover{
+    background-color: #852424;
+}
+
+/*-----Footer (copyright)-----*/
+
+footer {
+    background-color: rgb(32, 32, 32);
+    height: 25px;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+ }
+
+/*******----NASLOVNA------********/
+
+.oblak{
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 0px solid #b3271c;
+    padding: 20px;
+    width: 90vw;
+}
+
+.oblak img{
+    border: 0px solid black;
+    border-radius: 0px 50px 0px 50px;
+    margin-bottom: 10px;
+}
+
+.akcija{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.radnovreme{
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-bottom: 2%;
+}
+
+
+#plus{
+    font-size: 40px;
+}
+
+/*****-----Turneja-----******/
+.telo{
+    background-color: rgb(32, 32, 32);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid #b3271c;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90vw;
+}
+
+.naslov{
+    font-size: 45px;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 20px;
+    
+}
+
+/*------Tabele-----*/
+
+ table,th{
+     border: 2px solid #b3271c;
+     border-collapse: collapse;
+	 background-color: rgb(138, 97, 91);
+ }
+
+ table{
+     margin: 0 auto;
+ }
+
+ th{
+    font-weight: lighter;
+    height: 35px;
+ }
+
+ /*******----O NAMA-----*******/
+
+ .rectangle{
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 0px solid #b3271c;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 1rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90vw;
+    height: 50vw;
+ }
+
+ .rectangle h1{
+    margin: 0 auto;
+    border-bottom: 3px dotted black;
+}
+
+ .container {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+.container p{
+    padding: 20px;
+    font-weight: 600;
+}
+
+/* Parent Container */
+.content_img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Child Text Container */
+.content_img div{
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.content_img img{
+    width: 200px;
+    height: auto;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.yt_vid{
+    margin-top: 2%;
+}
+
+ /*******---KONTAKT----******/
+
+ .kocka{
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 0px solid #b3271c;
+    border-radius: 5px;
+    padding: 50px;
+    word-wrap: break-word;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 90vw;
+}
+
+.kocka img{
+    margin-bottom: 4%;
+    width: 200px;
+    margin-top: 4%;
+}
+
+.kocka p{
+    font-size: 2rem;
+    text-decoration: underline  1px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+}
+
+.kocka a{
+    color: #B3271C;
+    text-decoration: none;
+}
+
+/******-----RESPONSIVE----******/
+
+@media (max-width: 1000px){
+    /*---O NAMA---*/
+    iframe{
+        width: 250px;
+        height: 100px;
+    }
+}
+
+@media (max-width:600px){
+
+    .header{
+        width: 100vw !important;
+    }
+    ul li{
+        width: 100px;
+    }
+    ul li a{
+        font-size: 12px !important;
+    }
+
+    /*---- NASLOVNA + O NAMA-----*/
+
+    h1{
+        font-size: 15px;
+    }
+
+    /*---O NAMA----*/
+
+    .container{
+        font-size: 12px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    iframe{
+            width: 112px  !important;
+            height: 36px  !important;
+    }
+
+    /*---MENI---*/
+
+    th{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 250px){
+
+    /*---O NAMA----*/
+
+    iframe{
+        width: 66px  !important;
+        height: 18px  !important;
+    }
+
+    .rectangle p{
+        font-size: 6px !important;
+    }
+
+    /*---KONTAKT---*/
+    
+    .telo{
+        width: 150px;
+    }
+}

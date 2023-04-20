@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slipknot Info Stranica</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"></head>
+    <body>
+        <div class="header col-8 centar">
+            <div><img src="slike/logo.png" alt="logo" class="col-2"></div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Naslovna</a></li>
+                    <li><a href="o_nama.html">O nama</a></li>
+                    <li><a href="turneja.html">Turneja</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-8 rectangle centar">
+            <h1 class="col-3">Vise o nama</h1> 
+            <div class="container">
+                <img src="slike/slipknot2.jpg" alt="slika1" class="col-4">
+                <p>Bend je osnovan 1995. godine, imaju 6 izdata studijska albuma, tri uživo albuma i trenutno imaju potpisan ugovor sa Roadrunner Records.</p>    
+				<p>Bend je formiran krajem 1995. godine. Prvi album im je bio Mate. Feed. Kill. Repeat 1996. godine. Album Slipknot je izdat 1999. godine, a potom Iowa 2001. godine, Vol. 3: The Subliminal Verses 2004. godine, All Hope Is Gone 2008. godine, The Gray Chapter 2014. godine.
+				Njihov poslednji album je We Are Not Your Kind, izdat oktobra 2019. godine.</p>
+            </div>
+        </div>
+        <div class="col-8 rectangle centar">
+            <h1 class="col-3">Naš izgled</h1> 
+            <div class="container">
+                <img src="slike/maske.jpg" alt="slika2" class="col-4">
+                <p>Našem uspehu je doprineo teatralan izgled kojim smo plenili pažnju: uvek nastupamo noseći ručno izrađene maske. 
+				Kada se tome pridoda misteriozna anonimnost, stihovi prepuni nihilizma i tamne strane života, uspeh je bio zagarantiran.</p>    
+            </div>
+        </div>
+        <div class="col-4 rectangle centar">
+            <h1 class="col-3">Sadašnji i bivši članovi</h1> 
+            <div class="container">
+              
+                <p><u><b>Sadašnji članovi:</b></u>
+				<li>Sid Vilson</li>
+                <li>Džej Vainberg</li>
+                <li>Tortilja men</li>
+                <li>Džejms Rut</li>
+				<li>Kreg Džons</li>
+				<li>Šon Krahan</li>
+				<li>Mik Tompson</li>
+				<li>Kori Tejlor</li></p>
+				<p><u><b>Bivši članovi:</b></u>
+				<li>Doni Stil</li>
+				<li>Anders Kolsefini</li>
+				<li>Greg Velts</li>
+				<li>Džoš Breinard</li>
+				<li>Pol Grej (preminuo)</li>
+				<li>Brendon Drener</li>
+				<li>Džoi Džopdison</li>
+				<li>Kris Fen</li></p>    
+            </div>
+        </div>
+        <div class="col-8 rectangle centar">
+            <h1 class="col-3">Jedna od naših najpoznatijih pesama</h1> 
+            <div class="yt_vid centar">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/-XlW-cyAdiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer class="col-12">
+            <p>Copyright</p>
+        </footer>
+   <!--<style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div>--></body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slipknot Info Stranica</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header col-8 centar">
+            <div><img src="slike/logo.png" alt="logo" class="col-2"></div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Naslovna</a></li>
+                    <li><a href="o_nama.html">O nama</a></li>
+                    <li><a href="turneja.html">Turneja</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-8 telo">
+            <div class="naslov">
+                <p>Europska Turneja 2022</p>
+            </div>
+            <table class="col-8">
+                <tr>
+                    <th class="col-7 bold">Država</th>
+                    <th class="col-3 bold">Grad</th>
+                    <th class=" bold">Datum</th>
+                </tr>
+                <tr>
+                    <th>Ukraine</th>
+                    <th class="italic">Kyiv</th>
+                    <th>17 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Romania</th>
+                    <th class="italic">Bucharest</th>
+                    <th>20 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Bulgaria</th>
+                    <th class="italic">Plovdiv</th>
+                    <th>21 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Greece</th>
+                    <th class="italic">Athens</th>
+                    <th>23 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Italy</th>
+                    <th class="italic">Villafranca di Verona</th>
+                    <th>26 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Austria</th>
+                    <th class="italic">Graz</th>
+                    <th>27 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Czech Republic</th>
+                    <th class="italic">Prague</th>
+                    <th>28 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Germany</th>
+                    <th class="italic">Oberhausen</th>
+                    <th>30 July 2022</th>
+                </tr>
+                <tr>
+                    <th>Switzerland</th>
+                    <th class="italic">Geneva</th>
+                    <th>01 August 2022</th>
+                </tr>
+                <tr>
+                    <th>Slovakia</th>
+                    <th class="italic">Slovakia</th>
+                    <th>03 August 2022</th>
+                </tr>
+				<tr>
+                    <th>Poland</th>
+                    <th class="italic">Gdansk</th>
+                    <th>07 August 2022</th>
+                </tr>
+				<tr>
+                    <th>Estonia</th>
+                    <th class="italic">Tallinn</th>
+                    <th>11 August 2022</th>
+                </tr>
+				<tr>
+                    <th>Finland</th>
+                    <th class="italic">Turku</th>
+                    <th>12 - 13 August 2022</th>
+                </tr>
+				<tr>
+                    <th>Sweden</th>
+                    <th class="italic">Malmo</th>
+                    <th>15 August 2022</th>
+                </tr>
+            </table>
+            <center><u><a href="https://www.viagogo.com/ww/Concert-Tickets/Hard-Rock-Metal/Slipknot-Tickets?AffiliateID=49&adposition=&PCID=PSROWGOOCONSLIPK10CB1EC7D&AdID=604078905089&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=1602011960&ps_ag=67742974244&ps_tg=kwd-549134628857&ps_ad=604078905089&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=21213&ps_n=g&ps_d=c&gclid=CjwKCAjw-8qVBhANEiwAfjXLrkGaXioPrZfP7srKs2vkCkU6x9eE7_fTBy9u4u-8dUQ1naxZyobTmhoCyJ4QAvD_BwE">Karte kupiti tu!</a><u></u></center>
+            
+            <br><br>
+        </div>
+        <footer class="col-12">
+            <p>Copyright</p>
+        </footer>
+    </body>
+</html>
